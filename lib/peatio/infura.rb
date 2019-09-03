@@ -3,16 +3,16 @@ require "active_support/core_ext/enumerable"
 require "peatio"
 
 module Peatio
-  module Litecoin
+  module Infura
     require "bigdecimal"
     require "bigdecimal/util"
 
-    require "peatio/litecoin/blockchain"
-    require "peatio/litecoin/client"
-    require "peatio/litecoin/wallet"
+    require "peatio/infura/blockchain"
+    require "peatio/infura/client"
+    require "peatio/infura/wallet"
 
-    require "peatio/litecoin/hooks"
+    require "peatio/infura/hooks"
 
-    require "peatio/litecoin/version"
+    require "peatio/infura/version"
   end
 end
